@@ -9,13 +9,15 @@
     <title></title>
   </head>
   <body>
+    <div class="container">
+      <form id="inputs">
   <div class="name-field">
     <label for="name">Full name:</label>
     <input id="name" class="form-control" type="text">
   </div>
-  <div class="adress-field">
-    <label for="adress">Adress:</label>
-    <input id="adress" class="form-control" type="text">
+  <div class="address-field">
+    <label for="address">Address:</label>
+    <input id="address" class="form-control" type="text">
   </div>
   <head>
     Species
@@ -30,24 +32,27 @@
   </select>
   <div class="radio">
   <label>
-    <input type="radio" name="earring" value="Hoop"checked> РСД35 Hoop
+    <input type="radio" name="earring" value="hoops">
+    Hoop
   </label>
   </div>
-<div class="radio">
+  <div class="radio">
   <label>
-    <input type="radio" name="Earring" value="Stud">
-    РСД10 Stud
+    <input type="radio" name="earring" value="studs">
+    Stud
+  </label>
+  </div>
+  <div class="radio">
+  <label>
+    <input type="radio" name="earring" value="dangles">
+     Dangle
   </label>
 </div>
-<div class="radio">
-  <label>
-    <input type="radio" name="Earring" value="Dangle">
-     РСД20 Dangle
-  </label>
+  <button type="submit"  class="btn">Show me the reciept!</button>
+</form>
+  <div>
+  <p id="reciept">One day, <span class="name"></span> and <span class="address"></span> were walking through the woods, when suddenly a giant <span class="animal"></span> appeared. <span class="earring"></span></p>
 </div>
-<div id="Reciept">
-  <h1>Animal Accessories</h1>
-  <p>One day, <span class="person1"></span> and <span class="person2"></span> were walking through the woods, when suddenly a giant <span class="animal"></span> appeared. "<span class="exclamation"></span>", <span class="person1"></span> cried. The two of them <span class="verb"></span> as quickly possible, and when they were safe, <span class="person1"></span> and <span class="person2"></span> gave each other a giant <span class="noun"></span>.</p>
 </div>
   </body>
 </html>
